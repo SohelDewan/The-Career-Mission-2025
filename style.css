@@ -1,3 +1,4 @@
+/* common css */
 *{
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -5,9 +6,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to right, #FFDAD9, #B2C7FF);
-    /* margin: auto 6%; */
+    background-image: linear-gradient(270deg, #B8E7FA, #E6E6FA);
 }
+/* header style start */
 header{
     background: hsla(0, 0%, 100%, 0.61);
     padding: 20px 6%;
@@ -16,15 +17,18 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 .career{
     font-size: 28px;
     font-weight:bolder;
+    cursor: pointer;
 }
 .io{
     font-size: 28px;
     font-weight:bolder;
     color: #FFA500;
 }
+/* button for common design */
 .btn{
     padding: 17px 24px;
     background: linear-gradient(to right, #FFA500, #FFD447);
@@ -34,9 +38,65 @@ header{
     font-weight: 500;
     box-shadow: 4px 5px 6px #ccc;
     color: #0D1321;
-    transition: ease-in-out .5s;
+    transition: ease-in-out .3s;
 }
 .btn:hover{
     background: linear-gradient(to left, #FFA500, #FFD447);
+    color: #fff;
     cursor: pointer;
+}
+/* bannear part start */
+.banner{
+    padding: 40px 6%;
+    background: #E6EDF9;
+    text-align: center;
+    margin: auto 6%;
+    align-items: center;
+    margin-top: 60px;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
+.banner h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner-p{
+    padding: 20px 120px;
+    color: #0d132179;
+    font-size: 18px;
+}
+/* why-web part start */
+.two{
+    margin: 50px 6%;
+}
+.why-web{
+    text-align: center;
+    margin-top: 40px;
+}
+.why-web h4{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.coding{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    background: #E6E6FA;
+    border-radius: 4px;
+    padding: 40px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.codH5{
+    color: #0d1321b7;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+.code-p{
+    color: #0d132179;
+    font-size: 18px;
+    padding-bottom: 40px;
 }
