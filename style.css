@@ -135,6 +135,7 @@ header{
     padding: 30px;
 }
 .card-container .common-style{
+    transition: all .3s;
     background: linear-gradient(0deg, #B8E7FA, #E6E6FA);
     padding: 30px;
     min-width: 300px;
@@ -144,6 +145,10 @@ header{
 }
 .card-container a{
     font-size: 14px;
+}
+.common-style:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 /* Footer style start */
 footer{
@@ -157,10 +162,10 @@ footer{
     }
     .icon{
         display: flex;
-        gap: 10px;
+        gap: 16px;
         font-size: 20px;
-
     }
+  
 
    
     
