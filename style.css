@@ -89,17 +89,35 @@ header{
     align-items: center;
 }
 .codH5{
-    color: #0d1321b7;
+    color: #0d1321;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 30px;
     line-height: 28px;
 }
 .code-p{
-    color: #0d132179;
+    color: #696969;
     font-size: 18px;
     padding-bottom: 40px;
 }
+ /*  My inspiration style part start  */
+    .inspiration{
+        margin: 60px 6%;
+        text-align: center;
+    }
+    .inspiration-p{
+        padding: 20px 15%;
+        color: #696969;
+    }
+    .video-image {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .video-image img{
+        overflow: hidden;
+        max-width: 100%;
+
+    }
 /* My target part starts */
 #my-target{
     margin: auto 6%;
@@ -143,4 +161,6 @@ footer{
         font-size: 20px;
 
     }
+
+   
     
