@@ -66,7 +66,7 @@ header{
     font-size: 18px;
 }
 /* why-web part start */
-.two{
+.two, .target{
     margin: 50px 6%;
 }
 .why-web{
@@ -100,3 +100,47 @@ header{
     font-size: 18px;
     padding-bottom: 40px;
 }
+/* My target part starts */
+#my-target{
+    margin: auto 6%;
+}
+.target{
+    text-align: center;
+    margin-top: 80px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.card-container .common-style{
+    background: linear-gradient(0deg, #B8E7FA, #E6E6FA);
+    padding: 30px;
+    min-width: 300px;
+    box-shadow: 5px 7px 10px #bbb;
+    border-radius: 6px;
+    border:#0D1321;
+}
+.card-container a{
+    font-size: 14px;
+}
+/* Footer style start */
+footer{
+    width: 100%;
+    /* margin: auto 6%; */
+    background: #fff;
+    padding: 30px 6%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    }
+    .icon{
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+
+    }
+    
