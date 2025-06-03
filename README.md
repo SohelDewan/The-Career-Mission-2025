@@ -10,6 +10,8 @@ Your mission — should you choose to accept — is to build an **attractive & s
 This is your chance to **showcase your passion 💖** and tell the world how badly you want to become a **crazy level developer 🧑‍💻👩‍💻**.  
 
 ---
+My github: https://github.com/SohelDewan/The-Career-Mission-2025
+Live link: https://soheldewan.github.io/The-Career-Mission-2025/
 
 ## 🧠 Marking System — Total: 60 Marks
 

@@ -19,6 +19,7 @@
     color: #0d132179;
     font-size: 16px;
 }
+
 .coding {
     display: flex;
     flex-wrap: wrap;
@@ -45,12 +46,21 @@
 .why-web h4 {
     font-size: 26px;
 }
+.inspiration-p{
+        padding: 10px 3%;
+        text-align: justify;
+        font-size: 14px;
+    }
 
 .code-p {
     font-size: 13px;
 }
 .coding .image{
   overflow: hidden;
+}
+.coding {
+    gap: 6px;
+    padding: 5px 6px;
 }
 /* .target .card-container{
   gap: 10px;
@@ -67,5 +77,9 @@ footer img{
 footer p{
   font-size: 13px;
 }
+ .icon{
+        gap: 6px;
+        font-size: 16px;
+    }
 }
 
