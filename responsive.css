@@ -60,14 +60,17 @@
 }
 .coding {
     gap: 6px;
-    padding: 5px 6px;
+    padding: 5px 3px;
 }
 /* .target .card-container{
   gap: 10px;
 } */
- .video-image{
-    max-width: 400px !important;
-  }
+ /* .video-image{
+    max-width: 360px !important;
+  } */
+   .video-image img{
+        max-width: 70%;
+    }
 footer .icon{
   flex-wrap: wrap;
 }
